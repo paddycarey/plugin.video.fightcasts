@@ -1,0 +1,10 @@
+[B]0.0.1[/B]
+- Initial alpha version
+- Added UStream (mp4) support
+- Added generic RSS podcast support
+- Added Podcast: The MMA Hour (Video)
+- Added Podcast: Fight Day (Video)
+- Added Podcast: MMA Nation (Video)
+- Added Podcast: MMA Junkie Radio (Video)
+- Added Podcast: MMA Nuts (Video)
+- Added Podcast: The MMA Hour (Video)
