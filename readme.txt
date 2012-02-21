@@ -2,5 +2,9 @@ A Simple addon to aggregate and stream content from various combat sport related
 
 Currently Supported Feeds:
 
-Middleeasy TV (Youtube)
-MMA Nuts (RSS)
+    # BellatorMMA (Youtube)
+    # Middleeasy TV (Youtube)
+    # MMAFighting.com (Plugin)
+    # MMAinterviews.tv (Youtube)
+    # MMA Nuts (RSS)
+    # UFC (Youtube)
