@@ -2,7 +2,6 @@
 
 import os
 import sys
-import urllib
 import xbmc
 import xbmcaddon
 import xbmcgui
@@ -11,7 +10,7 @@ import xbmcplugin
 ### get addon info
 __addon__             = xbmcaddon.Addon()
 __addonidint__        = int(sys.argv[1])
-__addonname__         = __addon__.getAddonInfo('name')
+__addonid__         = __addon__.getAddonInfo('id')
 __addondir__          = xbmc.translatePath(__addon__.getAddonInfo('path'))
 
 
@@ -26,16 +25,35 @@ def addFeed(title, targetPath, plot = '', outline = '', thumbPath = 'DefaultFold
 def log(txt='', severity=xbmc.LOGDEBUG):
 
     """Log to txt xbmc.log at specified severity"""
-    message = ('FightCasts: %s' % txt)
+    message = ('%s: %s' % (__addonid__, txt))
     xbmc.log(msg=message, level=severity)
 
 
 if __name__ == "__main__":
 
-    addFeed(title = 'Middleeasy TV (Youtube)', plot = "It's MiddleEasy.com only with a LOT of MMA videos", targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=MiddleEasyTV&store=contact_options&', thumbPath = 'http://b.vimeocdn.com/ps/288/288518_300.jpg')
-    addFeed(title = 'MMA Nuts (RSS)', plot = "MMA NUTS is a video/audio podcast hosted by Ingo Weigold and Matt Griffith covering news and events of the fastest growing sport in the world. The main focus of the show is in depth analysis and coverage of American based mixed martial arts promotions like the UFC, Strikeforce and Chicago MMA as well as Fighter and MMA Celebrity Interviews and Product Reviews.", targetPath = 'rss://mmanuts.com:80/feed/podcast', thumbPath = 'http://a1.mzstatic.com/us/r30/Podcasts/12/03/7b/ps.emtngods.170x170-75.jpg')
-    addFeed(title = 'The MMA Hour (Plugin)', plot = "The MMA Hour is MMA Fighting's weekly show that discusses the latest in mixed martial arts with fighters and top MMA personalities.", targetPath = 'plugin://plugin.video.mmafighting', thumbPath = 'http://www.blogsmithmedia.com/www.mmafighting.com/media/mma-hour-promo-bg.png')
-    addFeed(title = 'UFC (Youtube)', plot = "Ultimate Fighting Championship is the world's leading mixed martial arts organization.", targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=UFC&store=contact_options&', thumbPath = 'http://www.mmatraining.com/wp-content/uploads/2011/08/UFC-Logo.jpg')
+    # Middleeasy TV (Youtube)
+    addFeed(    title = 'Middleeasy TV (Youtube)', 
+                plot = "It's MiddleEasy.com only with a LOT of MMA videos",
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=MiddleEasyTV&store=contact_options&',
+                thumbPath = 'http://b.vimeocdn.com/ps/288/288518_300.jpg')
+    
+    # MMA Nuts (RSS)
+    addFeed(    title = 'MMA Nuts (RSS)',
+                plot = "MMA NUTS is a video/audio podcast hosted by Ingo Weigold and Matt Griffith covering news and events of the fastest growing sport in the world. The main focus of the show is in depth analysis and coverage of American based mixed martial arts promotions like the UFC, Strikeforce and Chicago MMA as well as Fighter and MMA Celebrity Interviews and Product Reviews.",
+                targetPath = 'rss://mmanuts.com:80/feed/podcast',
+                thumbPath = 'http://a1.mzstatic.com/us/r30/Podcasts/12/03/7b/ps.emtngods.170x170-75.jpg')
+    
+    # MMAFighting.com (Plugin)
+    addFeed(    title = 'MMAFighting.com (Plugin)',
+                plot = "MMA News & results for the Ultimate Fighting Championship (UFC), Strikeforce & more Mixed Martial Arts fights",
+                targetPath = 'plugin://plugin.video.mmafighting',
+                thumbPath = 'http://www.blogsmithmedia.com/www.mmafighting.com/media/mma-hour-promo-bg.png')
+    
+    # UFC (Youtube)
+    addFeed(    title = 'UFC (Youtube)',
+                plot = "Ultimate Fighting Championship is the world's leading mixed martial arts organization.",
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=UFC&store=contact_options&',
+                thumbPath = 'http://www.mmatraining.com/wp-content/uploads/2011/08/UFC-Logo.jpg')
 
     ## finish adding items to list and display
     xbmcplugin.endOfDirectory(__addonidint__)
