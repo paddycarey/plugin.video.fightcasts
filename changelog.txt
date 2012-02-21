@@ -1,3 +1,8 @@
+[B]0.0.2[/B]
+- Removed a lot of unnecessary code
+- Added depends on youtube plugin
+- Added depends on mmafighting plugin
+
 [B]0.0.1[/B]
 - Initial alpha version
 - Added UStream (mp4) support
