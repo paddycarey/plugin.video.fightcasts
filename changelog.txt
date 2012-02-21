@@ -2,14 +2,14 @@
 - Removed a lot of unnecessary code
 - Added depends on youtube plugin
 - Added depends on mmafighting plugin
+- Added new feeds:
+    # BellatorMMA (Youtube)
+    # Middleeasy TV (Youtube)
+    # MMAFighting.com (Plugin)
+    # MMAinterviews.tv (Youtube)
+    # MMA Nuts (RSS)
+    # UFC (Youtube)
+
 
 [B]0.0.1[/B]
 - Initial alpha version
-- Added UStream (mp4) support
-- Added generic RSS podcast support
-- Added Podcast: The MMA Hour (Video)
-- Added Podcast: Fight Day (Video)
-- Added Podcast: MMA Nation (Video)
-- Added Podcast: MMA Junkie Radio (Video)
-- Added Podcast: MMA Nuts (Video)
-- Added Podcast: The MMA Hour (Video)
