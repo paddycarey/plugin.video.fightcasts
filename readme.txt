@@ -2,8 +2,5 @@ A Simple addon to aggregate and stream content from various combat sport related
 
 Currently Supported Feeds:
 
-The MMA Hour (UStream)
-MMA Nation (UStream)
-Fight Day (UStream)
-MMA Junkie Radio (UStream)
+Middleeasy TV (Youtube)
 MMA Nuts (RSS)
