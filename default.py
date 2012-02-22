@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
     # MMA: Inside the Cage (Youtube)
     addFeed(    title = 'MMA: Inside the Cage (Youtube)',
-                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contactMMAInsideTheCageTV&store=contact_options&',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=MMAInsideTheCageTV&store=contact_options&',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/MMAInsideTheCageTV.jpg')
 
     # MMA Nuts (RSS)
