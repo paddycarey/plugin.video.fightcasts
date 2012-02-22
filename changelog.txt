@@ -4,6 +4,7 @@
 - Added depends on mmafighting plugin
 - Added new feeds:
     # BellatorMMA (Youtube)
+    # HDNet Fights (Youtube)
     # Middleeasy TV (Youtube)
     # MMAFighting.com (Plugin)
     # MMAinterviews.tv (Youtube)
