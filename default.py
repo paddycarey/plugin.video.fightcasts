@@ -63,10 +63,26 @@ if __name__ == "__main__":
                 targetPath = 'rss://mmanuts.com:80/feed/podcast',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/mmanuts.jpg')
     
+    # Disabled until Vimeo login is working again
+    ## The Reem (Vimeo)
+    #addFeed(    title = 'The Reem (Vimeo)',
+    #            targetPath = 'plugin://plugin.video.vimeo/?path=/root/contacts&folder=true&contact=thereem&store=contact_options&',
+    #            thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/thereem.jpg')    
+
+    # StillW1ll (Youtube)
+    addFeed(    title = 'StillW1ll (Youtube)',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=StillW1ll&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/stillwill.jpg')
+
     # UFC (Youtube)
     addFeed(    title = 'UFC (Youtube)',
                 targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=UFC&store=contact_options&',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/ufc.jpg')
+
+    # Whoa! TV (Youtube)
+    addFeed(    title = 'WHOA! TV (Youtube)',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=whoatv&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/whoatv.jpg')
 
     ## finish adding items to list and display
     xbmcplugin.endOfDirectory(__addonidint__)
