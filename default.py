@@ -33,15 +33,30 @@ def log(txt='', severity=xbmc.LOGDEBUG):
 
 if __name__ == "__main__":
 
-    # BellatorMMA (Youtube)
-    addFeed(    title = 'BellatorMMA (Youtube)', 
+    # Bellator MMA (Youtube)
+    addFeed(    title = 'Bellator MMA (Youtube)', 
                 targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=BellatorMMA&store=contact_options&',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/bellator.jpg')
+
+    # Eddie Bravo (Youtube)
+    addFeed(    title = 'Eddie Bravo (Youtube)', 
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=twistereddie&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/twistereddie.jpg')
+
+    # Evolve Mixed Martial Arts (Youtube)
+    addFeed(    title = 'Evolve Mixed Martial Arts (Youtube)', 
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=evolvemma&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/evolvemma.jpg')
 
     # HDNet Fights (Youtube)
     addFeed(    title = 'HDNet Fights (Youtube)',
                 targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=HDNetFights&store=contact_options&',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/hdnetfights.jpg')
+
+    # Iron Forges Iron (Youtube)
+    addFeed(    title = 'Iron Forges Iron (Youtube)',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=ironforgesiron&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/ironforgesiron.jpg')
 
     # Middleeasy TV (Youtube)
     addFeed(    title = 'Middleeasy TV (Youtube)', 
@@ -57,12 +72,27 @@ if __name__ == "__main__":
     addFeed(    title = 'MMAinterviews.tv (Youtube)',
                 targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=MMAinterviews&store=contact_options&',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/mmainterviews.jpg')
-    
+
+    # MMAWeekly.com Videos (Youtube)
+    addFeed(    title = 'MMAWeekly.com Videos (Youtube)',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=MMAWeeklyVideos&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/mmaweekly.jpg')
+
+    # MMA H.E.A.T. (Youtube)
+    addFeed(    title = 'MMA H.E.A.T. (Youtube)',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=mmaheat&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/mmaheat.jpg')
+
+    # MMA: Inside the Cage (Youtube)
+    addFeed(    title = 'MMA: Inside the Cage (Youtube)',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contactMMAInsideTheCageTV&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/MMAInsideTheCageTV.jpg')
+
     # MMA Nuts (RSS)
     addFeed(    title = 'MMA Nuts (RSS)',
                 targetPath = 'rss://mmanuts.com:80/feed/podcast',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/mmanuts.jpg')
-    
+
     # Disabled until Vimeo login is working again
     ## The Reem (Vimeo)
     #addFeed(    title = 'The Reem (Vimeo)',
@@ -83,6 +113,11 @@ if __name__ == "__main__":
     addFeed(    title = 'WHOA! TV (Youtube)',
                 targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=whoatv&store=contact_options&',
                 thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/whoatv.jpg')
+
+    # www.MMA30.com (Youtube)
+    addFeed(    title = 'www.MMA30.com (Youtube)',
+                targetPath = 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=MMA30tv&store=contact_options&',
+                thumbPath = 'http://mmaartwork.wackwack.co.uk/fightcasts/MMA30tv.jpg')
 
     ## finish adding items to list and display
     xbmcplugin.endOfDirectory(__addonidint__)
