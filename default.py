@@ -52,8 +52,8 @@ if __name__ == "__main__":
         for feed in feeds.audio:
             addFeed( title = feed['title'], url = feed['url'], thumbnail = feed['thumbnail'], fanart = feed['fanart'] )
     else:
-        addFeed( title = 'Audio', url = 'plugin://plugin.video.fightcasts/?audio', thumbnail = 'DefaultMusicSongs.png')
-        addFeed( title = 'Video', url = 'plugin://plugin.video.fightcasts/?video', thumbnail = 'DefaultMovies.png')
+        addFeed( title = 'Audio', url = 'plugin://plugin.video.fightcasts/?audio', thumbnail = 'DefaultAudio.png')
+        addFeed( title = 'Video', url = 'plugin://plugin.video.fightcasts/?video', thumbnail = 'DefaultVideo.png')
 
     ## finish adding items to list and display
     xbmcplugin.endOfDirectory(__addonidint__)
