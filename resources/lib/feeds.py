@@ -8,6 +8,8 @@ Skeleton feed:
         'thumbnail' : '',
         'fanart'    : '', } , """
 
+# Audio Feeds
+
 audio = [ 
 
     {   'title'     : 'ESPN UFC Podcast (RSS)',
@@ -21,6 +23,8 @@ audio = [
         'fanart'    : '', }
 
 ]
+
+# Video Feeds
 
 video = [ 
 

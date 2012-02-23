@@ -31,14 +31,6 @@ def addFeed(title, url, thumbnail = '', fanart = ''):
     xbmcplugin.addDirectoryItem( handle = __addonidint__, url = url, listitem = li, isFolder = True)
 
 
-def log(txt='', severity=xbmc.LOGDEBUG):
-
-    """Log to txt xbmc.log at specified severity"""
-    
-    message = ( '%s: %s' % ( __addonid__, txt ) )
-    xbmc.log( msg = message, level = severity )
-
-
 if __name__ == "__main__":
     
     feedType = sys.argv[2].lstrip('?')
