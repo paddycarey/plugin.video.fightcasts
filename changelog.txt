@@ -1,3 +1,7 @@
+[B]0.0.3[/B]
+- Split feeds out into seperate file
+- Added new feeds:
+
 [B]0.0.2[/B]
 - Removed a lot of unnecessary code
 - Added depends on youtube plugin
