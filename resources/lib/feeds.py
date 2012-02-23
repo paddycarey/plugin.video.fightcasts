@@ -12,15 +12,95 @@ Skeleton feed:
 
 audio = [ 
 
-    {   'title'     : 'ESPN UFC Podcast (RSS)',
+    {   'title'     : 'ESPN: UFC Podcast (RSS)',
         'url'       : 'rss://media.kyte.tv/services/rest/feedService.generate?_resp=xml&_rend=mrssOutMp3audio&_tran=itunesOut&mrs=25&key=r74GvGO3WhIhC9Gi',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/espnufcpodcast.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'Bloody Elbow Radio',
-        'url'       : 'http://www.blogtalkradio.com/bloodyelbowradio.rss',
+    {   'title'     : 'Bloody Elbow Radio (RSS)',
+        'url'       : 'rss://www.blogtalkradio.com/bloodyelbowradio.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/bloodyelbowradio.jpg',
-        'fanart'    : '', }
+        'fanart'    : '', } ,
+
+    {   'title'     : 'The MMA Hour - Audio (RSS)',
+        'url'       : 'rss://feeds.feedburner.com/aol/fanhouse/mmahour/audio',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'The Joe Rogan Experience (RSS)',
+        'url'       : 'rss://joeroganexp.joerogan.libsynpro.com/rss',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/thejoeroganexperience.jpg',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'ESPN: Gross Point Blank MMA Podcast (RSS)',
+        'url'       : 'rss://espn.go.com/espnradio/feeds/rss/podcast.xml?id=6220514',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/grosspointblank.jpg',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'MMAjunkie.com Radio (RSS)',
+        'url'       : 'rss://feeds.feedburner.com/MMAjunkieRadio',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'FightFans Radio Presents (RSS)',
+        'url'       : 'rss://www.fightfansradio.com/FightFans_Radio.xml',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'TapouT Radio (RSS)',
+        'url'       : 'rss://feeds.feedburner.com/cagesidelive',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/tapoutradio.jpg',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'The Bum Rush Radio Show (RSS)',
+        'url'       : 'rss://feeds.feedburner.com/TheBumRushRadioShow',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'BTR: MMA Scraps Radio',
+        'url'       : 'http://www.blogtalkradio.com/mmascraps.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'Joe Show Radio - Underground MMA Radio',
+        'url'       : 'http://feeds.feedburner.com/MmaJoeShowRadio-UndergroundMmaRadio',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'BTR: MMASweetDown',
+        'url'       : 'http://www.blogtalkradio.com/mmasweetdown.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'The Jordan Breen Show on the Sherdog Radio Network',
+        'url'       : 'http://sherdogvideos.com/breen/breen_podcast.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'Sherdog Radio Network: Rewind',
+        'url'       : 'http://sherdogvideos.com/rewind/rewind_podcast.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'MMA Radio: Beatdown with TJ De Santis',
+        'url'       : 'http://sherdogvideos.com/radio/beatdown_podcast.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'MMA Sunday School with Scott Holmes and Rodney Dean',
+        'url'       : 'http://sherdogvideos.com/sundayschool/sundayschool_podcast.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'The Savage Dog Show with Greg Savage and Jeff Sherwood',
+        'url'       : 'http://sherdogvideos.com/savagedog/savagedog_podcast.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'IT\'S TIME!!! With Bruce Buffer',
+        'url'       : 'http://sherdogvideos.com/buffer/buffer_podcast.rss',
+        'thumbnail' : '',
+        'fanart'    : '', } ,
 
 ]
 
@@ -126,6 +206,16 @@ video = [
     {   'title'     : 'www.MMA30.com (Youtube)',
         'url'       : 'plugin://plugin.video.youtube/?path=/root/contacts&folder=true&contact=MMA30tv&store=contact_options&',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/MMA30tv.jpg',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'Budovideos Online: Jiu-Jitsu, Grappling, MMA (RSS)',
+        'url'       : 'rss://feeds.feedburner.com/budovideos/',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/budovideos.jpg',
+        'fanart'    : '', } ,
+
+    {   'title'     : 'The Best of the UFC (RSS)',
+        'url'       : 'rss://video.ufc.tv/iTunes_podcasts/rss/ufc_itunes_feed.rss',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/bestofufc.jpg',
         'fanart'    : '', } ,
 
 ]
