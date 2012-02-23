@@ -16,10 +16,16 @@ __addonid__         = __addon__.getAddonInfo('id')
 __addondir__          = xbmc.translatePath(__addon__.getAddonInfo('path'))
 
 
-def addFeed(title, url, thumbnail = 'DefaultFolder.png', fanart = os.path.join(__addondir__, 'fanart.jpg')):
+def addFeed(title, url, thumbnail, fanart):
     
     """Add a link to the specified feed"""
     
+    if thumbnail == '':
+        thumbnail = 'DefaultFolder.png'
+
+    if fanart == '':
+        fanart = os.path.join(__addondir__, 'fanart.jpg')
+
     li = xbmcgui.ListItem( label = title, iconImage = thumbnail, thumbnailImage = thumbnail)
     li.setProperty( "Fanart_Image", fanart )
     xbmcplugin.addDirectoryItem( handle = __addonidint__, url = url, listitem = li, isFolder = True)
