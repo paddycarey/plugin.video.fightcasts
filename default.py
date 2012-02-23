@@ -16,7 +16,7 @@ __addonid__         = __addon__.getAddonInfo('id')
 __addondir__          = xbmc.translatePath(__addon__.getAddonInfo('path'))
 
 
-def addFeed(title, url, thumbnail, fanart):
+def addFeed(title, url, thumbnail = '', fanart = ''):
     
     """Add a link to the specified feed"""
     
@@ -40,10 +40,20 @@ def log(txt='', severity=xbmc.LOGDEBUG):
 
 
 if __name__ == "__main__":
-
-    # add feeds to directory listing
-    for feed in feeds.video:
-        addFeed( title = feed['title'], url = feed['url'], thumbnail = feed['thumbnail'], fanart = feed['fanart'] )
+    
+    feedType = sys.argv[2].lstrip('?')
+    
+    if feedType == 'video':
+        # add feeds to directory listing
+        for feed in feeds.video:
+            addFeed( title = feed['title'], url = feed['url'], thumbnail = feed['thumbnail'], fanart = feed['fanart'] )
+    elif feedType == 'audio':
+        # add feeds to directory listing
+        for feed in feeds.audio:
+            addFeed( title = feed['title'], url = feed['url'], thumbnail = feed['thumbnail'], fanart = feed['fanart'] )
+    else:
+        addFeed( title = 'Audio', url = 'plugin://plugin.video.fightcasts/?audio', thumbnail = 'DefaultMusicSongs.png')
+        addFeed( title = 'Video', url = 'plugin://plugin.video.fightcasts/?video', thumbnail = 'DefaultMovies.png')
 
     ## finish adding items to list and display
     xbmcplugin.endOfDirectory(__addonidint__)

@@ -13,6 +13,7 @@
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
+    <provides>audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Browse and stream content from a variety of online MMA sources.</summary>
