@@ -24,7 +24,7 @@ audio = [
 
     {   'title'     : 'The MMA Hour - Audio (RSS)',
         'url'       : 'rss://feeds.feedburner.com/aol/fanhouse/mmahour/audio',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/themmahour.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'The Joe Rogan Experience (RSS)',
@@ -39,12 +39,12 @@ audio = [
 
     {   'title'     : 'MMAjunkie.com Radio (RSS)',
         'url'       : 'rss://feeds.feedburner.com/MMAjunkieRadio',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmajunkieradio.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'FightFans Radio Presents (RSS)',
         'url'       : 'rss://www.fightfansradio.com/FightFans_Radio.xml',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/fightfansradio.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'TapouT Radio (RSS)',
@@ -54,52 +54,52 @@ audio = [
 
     {   'title'     : 'The Bum Rush Radio Show (RSS)',
         'url'       : 'rss://feeds.feedburner.com/TheBumRushRadioShow',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/bumrushradio.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'BTR: MMA Scraps Radio',
+    {   'title'     : 'BTR: MMA Scraps Radio (RSS)',
         'url'       : 'http://www.blogtalkradio.com/mmascraps.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmascrapsradio.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'Joe Show Radio - Underground MMA Radio',
+    {   'title'     : 'Joe Show Radio - Underground MMA Radio (RSS)',
         'url'       : 'http://feeds.feedburner.com/MmaJoeShowRadio-UndergroundMmaRadio',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/joeshowradio.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'BTR: MMASweetDown',
+    {   'title'     : 'BTR: MMASweetDown (RSS)',
         'url'       : 'http://www.blogtalkradio.com/mmasweetdown.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmasweetdown.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'The Jordan Breen Show on the Sherdog Radio Network',
+    {   'title'     : 'The Jordan Breen Show on the Sherdog Radio Network (RSS)',
         'url'       : 'http://sherdogvideos.com/breen/breen_podcast.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/jordanbreenshow.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'Sherdog Radio Network: Rewind',
+    {   'title'     : 'Sherdog Radio Network: Rewind (RSS)',
         'url'       : 'http://sherdogvideos.com/rewind/rewind_podcast.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/sherdogrewind.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'MMA Radio: Beatdown with TJ De Santis',
+    {   'title'     : 'MMA Radio: Beatdown with TJ De Santis (RSS)',
         'url'       : 'http://sherdogvideos.com/radio/beatdown_podcast.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmabeatdown.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'MMA Sunday School with Scott Holmes and Rodney Dean',
+    {   'title'     : 'MMA Sunday School with Scott Holmes and Rodney Dean (RSS)',
         'url'       : 'http://sherdogvideos.com/sundayschool/sundayschool_podcast.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmasundayschool.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'The Savage Dog Show with Greg Savage and Jeff Sherwood',
+    {   'title'     : 'The Savage Dog Show with Greg Savage and Jeff Sherwood (RSS)',
         'url'       : 'http://sherdogvideos.com/savagedog/savagedog_podcast.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/savagedogshow.jpg',
         'fanart'    : '', } ,
 
-    {   'title'     : 'IT\'S TIME!!! With Bruce Buffer',
+    {   'title'     : 'IT\'S TIME!!! With Bruce Buffer (RSS)',
         'url'       : 'http://sherdogvideos.com/buffer/buffer_podcast.rss',
-        'thumbnail' : '',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/itstimebrucebuffer.jpg',
         'fanart'    : '', } ,
 
 ]
