@@ -13,7 +13,7 @@ Skeleton feed:
 audio = [ 
 
     {   'title'     : 'The MMA Show (RSS)',
-        'url'       : 'http://feeds.feedburner.com/FightShow',
+        'url'       : 'rss://feeds.feedburner.com/FightShow?format=xml',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/themmashow.jpg',
         'fanart'    : '', } ,
 
@@ -63,17 +63,17 @@ audio = [
         'fanart'    : '', } ,
 
     {   'title'     : 'BTR: MMA Scraps Radio (RSS)',
-        'url'       : 'http://www.blogtalkradio.com/mmascraps.rss',
+        'url'       : 'rss://www.blogtalkradio.com/mmascraps.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmascrapsradio.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'Joe Show Radio - Underground MMA Radio (RSS)',
-        'url'       : 'http://feeds.feedburner.com/MmaJoeShowRadio-UndergroundMmaRadio',
+        'url'       : 'rss://feeds.feedburner.com/MmaJoeShowRadio-UndergroundMmaRadio?format=xml',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/joeshowradio.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'BTR: MMASweetDown (RSS)',
-        'url'       : 'http://www.blogtalkradio.com/mmasweetdown.rss',
+        'url'       : 'rss://www.blogtalkradio.com/mmasweetdown.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmasweetdown.jpg',
         'fanart'    : '', } ,
 
@@ -83,27 +83,27 @@ audio = [
         'fanart'    : '', } ,
 
     {   'title'     : 'Sherdog Radio Network: Rewind (RSS)',
-        'url'       : 'http://sherdogvideos.com/rewind/rewind_podcast.rss',
+        'url'       : 'rss://sherdogvideos.com/rewind/rewind_podcast.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/sherdogrewind.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'MMA Radio: Beatdown with TJ De Santis (RSS)',
-        'url'       : 'http://sherdogvideos.com/radio/beatdown_podcast.rss',
+        'url'       : 'rss://sherdogvideos.com/radio/beatdown_podcast.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmabeatdown.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'MMA Sunday School with Scott Holmes and Rodney Dean (RSS)',
-        'url'       : 'http://sherdogvideos.com/sundayschool/sundayschool_podcast.rss',
+        'url'       : 'rss://sherdogvideos.com/sundayschool/sundayschool_podcast.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/mmasundayschool.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'The Savage Dog Show with Greg Savage and Jeff Sherwood (RSS)',
-        'url'       : 'http://sherdogvideos.com/savagedog/savagedog_podcast.rss',
+        'url'       : 'rss://sherdogvideos.com/savagedog/savagedog_podcast.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/savagedogshow.jpg',
         'fanart'    : '', } ,
 
     {   'title'     : 'IT\'S TIME!!! With Bruce Buffer (RSS)',
-        'url'       : 'http://sherdogvideos.com/buffer/buffer_podcast.rss',
+        'url'       : 'rss://sherdogvideos.com/buffer/buffer_podcast.rss',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/itstimebrucebuffer.jpg',
         'fanart'    : '', } ,
 
