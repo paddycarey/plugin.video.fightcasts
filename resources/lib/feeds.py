@@ -12,6 +12,11 @@ Skeleton feed:
 
 audio = [ 
 
+    {   'title'     : 'The MMA Show (RSS)',
+        'url'       : 'http://feeds.feedburner.com/FightShow',
+        'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/themmashow.jpg',
+        'fanart'    : '', } ,
+
     {   'title'     : 'ESPN: UFC Podcast (RSS)',
         'url'       : 'rss://media.kyte.tv/services/rest/feedService.generate?_resp=xml&_rend=mrssOutMp3audio&_tran=itunesOut&mrs=25&key=r74GvGO3WhIhC9Gi',
         'thumbnail' : 'http://mmaartwork.wackwack.co.uk/fightcasts/espnufcpodcast.jpg',
